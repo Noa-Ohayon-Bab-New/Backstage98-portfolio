@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+	<title>Backstage 98</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/98.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/login.css?v=2">
+</head>
+
+<body>
+
+	<div class="window">
+		<div class="title-bar">
+			<div class="title-bar-text">Backstage 98 - Backstage Pass</div>
+			<div class="title-bar-controls">
+				<button aria-label="Minimize"></button>
+				<button aria-label="Maximize"></button>
+				<button aria-label="Close"></button>
+			</div>
+		</div>
+		<div class="window-body">
+			<p class="backstage-note">Backstage pass required.<br>Keep the setlist under wraps!</p>
+			<div class="main">
+				<input type="checkbox" id="chk" aria-hidden="true">
+					<div class="signup">
+							<label for="chk" aria-hidden="true">Sign up</label>
+
+							<input id="signupname" type="text" name="txt" placeholder="Username" required="">
+							<input id="signupemail" type="email" name="email" placeholder="Email" required="">
+							<input id="signuppass" type="password" name="pswd" placeholder="Password" required="">
+
+							<button id="signupbtn">Sign up</button>
+
+					</div>
+
+					<div class="login">
+							<label for="chk" aria-hidden="true">Login</label>
+
+							<span class="error" id="error"></span>
+
+							<input id="loginemail"type="email" name="email" placeholder="Email" required="">
+							<input id="loginpass"type="password" name="pswd" placeholder="Password" required="">
+
+							<button id="loginbtn">Login</button>
+
+					</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="assets/js/login.js"></script>
+
+</body>
+
+</html>
