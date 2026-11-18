@@ -4,6 +4,14 @@ A Windows 98-inspired setlist app I adapted from [Tasky](https://github.com/jeff
 
 ![Backstage 98 setlist app](docs/website.png)
 
+## The story behind the project
+
+I built Backstage 98 as a hands-on cloud exercise: take an existing app, make it my own, and learn how to deploy and secure its infrastructure. The Windows 98 design was inspired by exploring older operating systems with my son.
+
+![Backstage 98 Azure architecture](docs/azure-architecture.png)
+
+**[Read the case study](docs/case-study.md)** for the architecture, decisions, security checks, and lessons behind the project.
+
 ## What this project demonstrates
 
 - **Application customization:** Adapted a Go to-do app into a setlist experience, including its interface and visual design.
